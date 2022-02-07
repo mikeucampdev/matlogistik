@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Encode Sans Expanded', sans-serif;
+    overflow-x: hidden;
 }
 
 video{
@@ -62,7 +63,7 @@ a{
    position: absolute;
    z-index: 4;
    width: 7rem;
-   height: 5rem;
+   height: 7rem;
     
     
 }
@@ -119,9 +120,119 @@ a{
     text-align: center;
     padding: 1rem;
     border-radius: 40px;
-    margin: 20px;
+    margin-left: 5rem;
   
    
 }
+
 /*seccion nosotros*/
 
+.nosotros__container{
+  
+   
+
+}
+
+.nosotros__titulo{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+     
+}
+
+.img__container{
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+    padding: 0;
+   
+      
+}
+
+.img__nosotros{
+    width: 85rem;
+    height: 30rem;
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-around;
+    
+   
+}
+
+.nosotros__texto{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-anchor: middle;
+   
+}
+
+
+.cta__nosotros{
+    font-weight:semi-bold;
+    text-transform: uppercase;
+     background-color: #ff7f00;
+     color: #000;
+     text-align: center;
+     padding: 1rem;
+     border-radius: 40px;
+     margin: 20px;
+   
+    
+ 
+  
+}
+
+.cta__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25rem 0 10rem  52rem;
+    padding: 0;
+    position: absolute;
+    
+
+    
+   
+     
+}
+
+/*efecto parallax*/
+
+.parallax-content { 
+    height: 100vh;
+    overflow-x: hidden; 
+    overflow-y: auto;
+    perspective: 2px;
+  }
+
+  .parallax-section {
+    position: relative;
+    padding: 30vh 0;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1em;
+   
+  }
+
+  .parallax-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateZ(-1px) scale(2);
+  z-index: -1;
+  }
+
+  .parallax__section-bg {
+    background: rgb(0,83,33);
+    background: linear-gradient(90deg, rgba(0,83,33,1) 0%, rgba(215,198,1,1) 100%);
+  }
