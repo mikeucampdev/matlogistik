@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
+    
     <link rel="icon" type="image/png" sizes="96x96" href="assets/faviconmat-96x96.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,7 +44,7 @@
             </ul>
           
 
-            <video src="assets/video-mat.mp4" muted loop ></video>
+            <video src="assets/video-mat.mp4" muted  autoplay loop ></video>
         </nav> 
 
         <section class="hero__container container">
@@ -65,14 +66,16 @@
                 carga llegue a tiempo y segura.
                 
             </p>
-            <div class="cta__container">
-                <a href="https://api.whatsapp.com/send?phone=524444396667&text=Hola%20quiero%20mas%20información" target="_blank" class="cta__hero">Contáctame</a>
-          </div>
+          
         </div>
+       <div class="cta__nosotros--container">
+            <a href="#" class="cta__nosotros">Conoce más</a>
+        </div>
+       </div>
     </section>
 
     <!--SCROLL PARALLAX-->
-    <section id="teayudamos" class="text__center">
+    <section id="teAyudamos" class="text__center ">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -82,7 +85,10 @@
                         <li class="scroll__list">VIAJA RAPIDO</li>
                         <li class="scroll__list">LLEGA A TIEMPO</li>
                     </ul>
-                    < a href="#" class="btn btn-primary">Contáctame</a>
+                    <button class=" btn__parallax">
+                    <a href="#" >Contáctame</a>
+                </button>
+
 
 
                 </div>
@@ -94,7 +100,7 @@
       
            
         
-      </section>
+     
 
 
 
@@ -112,85 +118,233 @@
                de la mano con puntualidad,<br>
                 responsabilidad y eficacia.
             </p>
-            <a href="#" class="cta__nosotros">CONTACTO</a>
+            <button a href="#" class="cta__mision">CONTACTO</a>
+            </button>
         </div>
 
     </section>
 
 
     <!--SECCION VISION-->
-    <section class="vision__container">
-        <h1 class="vision__titulo">VISION</h1>
-        <div class="img__vision">
-            <img src="assets/vision-avion.png" alt="imagen vision">
-            <p class="vision__texto">
+    <section class="vision__contenedor">
+      
+        <h3 class="vision__tittle">VISION</h3>
+       
+        <p class="vision__text">
              Posicionarnos como la primer<br>
               empresa en desarrollar canales<br>
               logísticos de alto transito y <br>
               establecer vías seguras, puntuales<br>
               y confiables a nuestros clientes.
             </p>
-            <a href="#" class="cta__vision">CONTACTO</a>
+        
+        
+        
+        
+       <div class="cta__container--vision"> 
+           <button
+                a href="#" class="cta__vision">CONTACTO</a>
+            </button>
         </div>
+      
+         
+      
 
     </section>
 
     <!--SECCION SERVICIOS-->
-   <h2 class="servicios__title">SERVICIOS</h2>
-    <div id="app" class="container">
-        <card><img src="assets/transporte-terrestre.jpg" alt="imagen transporte terrestre"></card>
-        <h2 slot="header">Transporte terrestre</h2>
-        <button class="btn__terrestre">CONTACTO</button>
-
-    </div>
-
-
-    <div id="app" class="container">
-        <card><img src="assets/transporte_barco.jpg" alt="imagen transporte terrestre"></card>
-        <h2 slot="header">Transporte maritimo</h2>
-        <button class="btn__terrestre">CONTACTO</button>
-
-    </div>
-
     
-    <div id="app" class="container">
-        <card><img src="assets/avion_transporte.jpg" alt="imagen transporte terrestre"></card>
-        <h2 slot="header">Transporte aereo</h2>
-        <button class="btn__terrestre">CONTACTO</button>
+    <div class="container__servicios">
+      <!-- Card 1 -->
+      <div class="card card-1">
+        <!-- card-header -->
+        <div class="card-header">
+          <img src="assets/transporte-terrestre.jpg" class="card-img" />
+        </div>
+        <!-- card-header -->
 
-    </div>
+        <!-- card-body -->
+        <div class="card-body">
+          <h3 class="card-local">Transporte</h3>
+          <h2 class="card-titulo">Terrestre</h2>
+        
+        </div>
+        <!-- card-body -->
 
-   
-    <div id="app" class="container">
-        <card><img src="assets/almacen.jpg" alt="imagen transporte terrestre"></card>
-        <h2 slot="header">Servicio de almacenaje</h2>
-        <button class="btn__terrestre">CONTACTO</button>
+        <!-- card-footer -->
+        <div class="card-footer">
+          <a href="#">Ver Más</a>
+        </div>
+        <!-- card-footer -->
+      </div>
+      <!-- Card 1 -->
 
-    </div>
 
-    
-    <div id="app" class="container">
-        <card><img src="assets/aduana-2.jpg" alt="imagen transporte terrestre"></card>
-        <h2 slot="header">Despacho aduanal</h2>
-        <button class="btn__terrestre">CONTACTO</button>
 
-    </div>
+      <!-- Card 2 -->
+      <div class="card card-2">
+        <!-- card-header -->
+        <div class="card-header">
+          <img src="assets/transporte_barco.jpg" class="card-img" />
+        </div>
+        <!-- card-header -->
 
-    
-    <div id="app" class="container">
-        <card><img src="assets/comercializadora.jpg" alt="imagen transporte terrestre"></card>
-        <h2 slot="header">Servicio de almacenaje</h2>
-        <button class="btn__terrestre">CONTACTO</button>
+        <!-- card-body -->
+        <div class="card-body">
+          <h3 class="card-local">Transporte</h3>
+          <h2 class="card-titulo">Maritimo</h2>
+         
+        </div>
+        <!-- card-body -->
 
-    </div>
-          
+        <!-- card-footer -->
+        <div class="card-footer">
+          <a href="#">Ver Más</a>
+        </div>
+        <!-- card-footer -->
+      </div>
+      <!-- Card 2 -->
+
+
+
+      <!-- Card 3 -->
+      <div class="card card-3">
+        <!-- card-header -->
+        <div class="card-header">
+          <img src="assets/transporte-aereo.jpg" class="card-img" />
+        </div>
+        <!-- card-header -->
+
+        <!-- card-body -->
+        <div class="card-body">
+          <h3 class="card-local">Transporte</h3>
+          <h2 class="card-titulo">Aéreo</h2>
+        
+        </div>
+        <!-- card-body -->
+
+        <!-- card-footer -->
+        <div class="card-footer">
+          <a href="#">Ver Más</a>
+        </div>
+        <!-- card-footer -->
+      </div>
+      <!-- Card 3 -->
+
+
+
+       <!-- Card 4 -->
+       <div class="card card-4">
+        <!-- card-header -->
+        <div class="card-header">
+          <img src="assets/servicio-almacenaje.jpg" class="card-img" />
+        </div>
+        <!-- card-header -->
+
+        <!-- card-body -->
+        <div class="card-body">
+          <h3 class="card-local">Servicio de</h3>
+          <h2 class="card-titulo">Almacenaje</h2>
+        
+        </div>
+        <!-- card-body -->
+
+        <!-- card-footer -->
+        <div class="card-footer">
+          <a href="#">Ver Más</a>
+        </div>
+        <!-- card-footer -->
+      </div>
+      <!-- Card 4-->
+      
+     
+
+
+
+
+       <!-- Card 5 -->
+       <div class="card card-5">
+        <!-- card-header -->
+        <div class="card-header">
+          <img src="assets/servicio-aduana.jpg" class="card-img" />
+        </div>
+        <!-- card-header -->
+
+        <!-- card-body -->
+        <div class="card-body">
+          <h3 class="card-local">Despacho</h3>
+          <h2 class="card-titulo">Aduanal</h2>
+        
+        </div>
+        <!-- card-body -->
+
+        <!-- card-footer -->
+        <div class="card-footer">
+          <a href="#">Ver Más</a>
+        </div>
+        <!-- card-footer -->
+      </div>
+      <!-- Card 5-->
+
+
+
+
+
+
+       <!-- Card 6 -->
+       <div class="card card-6">
+        <!-- card-header -->
+        <div class="card-header">
+          <img src="assets/servicio-comercializadora.jpg" class="card-img" />
+        </div>
+        <!-- card-header -->
+
+        <!-- card-body -->
+        <div class="card-body">
+          <h3 class="card-local">Servicio de</h3>
+          <h2 class="card-titulo">Comercializadora</h2>
        
+        </div>
+        <!-- card-body -->
 
-    </section>
+        <!-- card-footer -->
+        <div class="card-footer">
+          <a href="#">Ver Más</a>
+        </div>
+        <!-- card-footer -->
+      </div>
+      <!-- Card 6-->
+    </div>
 
+    <footer>
+      <div class="foot__container">
+        <div class="foot__left">
+          <img class="logo__footer" src="assets/logomat-sinfondo3.png" alt="">
+          <p class="foot__text">Contacto<br>gerencia@matlogistik.com<br>contacto@matlogistik.com</p>
+        </div>
 
+        <div class="redes__container">
+          <div class="img__redes">
+            <a href="https://www.facebook.com/matlogistik/" target="_blank">
+              <img src="assets/facebook.ico" alt="">
+            </a>
 
+            <a href="https://www.instagram.com/matlogistik/" target="_blank">
+              <img src="assets/instagram.ico" alt="">
+            </a>
 
+            <a href="https://www.linkedin.com/company/matlogistik/" target="_blank">
+              <img src="assets/linkedin.png" alt="">
+            </a>
+
+            <a href="" target="_blank">
+              <img src="assets/whatsapp.ico" alt="">
+            </a>
+          </div>
+        </div>
+         
+     
+    </footer>
 
 
 
